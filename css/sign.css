@@ -1,0 +1,53 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+  }
+  
+  .signup-container {
+    background-color: #fff;
+    background-image: url(https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.art-prints-on-demand.com%2Fa%2Ff-1%2Fthefrozenmountain.html&psig=AOvVaw0R2baSalxRUz_VGHPIEzmT&ust=1726460222776000&source=images&cd=vfe&opi=89978449&ved=0CBEQjRxqFwoTCKiv0-WNxIgDFQAAAAAdAAAAABAE);
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  h2 {
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  
+  label {
+    display: block;
+    margin-bottom: 5px;
+  }
+  
+  input {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+  }
+  
+  button {
+    width: 100%;
+    padding: 10px;
+    background-color: #007BFF;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  button:hover {
+    background-color: #0056b3;
+  }
+  
+  p {
+    text-align: center;
+  }
+  

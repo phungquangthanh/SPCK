@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Đăng ký - VOCAB MASTER</title>
+  <link rel="stylesheet" href="sign.css">
+</head>
+<body>
+  <div class="signup-container">
+    <h2>Đăng ký tài khoản VOCAB MASTER</h2>
+    <form action="/register" method="POST">
+      <label for="name">Họ và Tên:</label>
+      <input type="text" id="name" name="name" required>
+      
+      <label for="email">Email:</label>
+      <input type="email" id="email" name="email" required>
+
+      <label for="password">Mật khẩu:</label>
+      <input type="password" id="password" name="password" required>
+
+      <label for="confirm-password">Xác nhận mật khẩu:</label>
+      <input type="password" id="confirm-password" name="confirm-password" required>
+
+      <button type="submit">Đăng ký</button>
+    </form>
+    <p>Đã có tài khoản? <a href="/login">Đăng nhập tại đây</a>.</p>
+  </div>
+  <a class="btn btn-primary" href="#" role="button">Link</a>
+  <button class="btn btn-primary" type="submit">Button</button>
+  <input class="btn btn-primary" type="button" value="Input">
+  
+  <div class="container">
+    <footer class="py-3 my-4">
+      <ul class="nav justify-content-center border-bottom pb-3 mb-3">
+        <li class="nav-item"><a href="#" class="nav-link px-2 text-body-secondary">Home</a></li>
+        <li class="nav-item"><a href="#" class="nav-link px-2 text-body-secondary">Features</a></li>
+        <li class="nav-item"><a href="#" class="nav-link px-2 text-body-secondary">Pricing</a></li>
+        <li class="nav-item"><a href="#" class="nav-link px-2 text-body-secondary">FAQs</a></li>
+        <li class="nav-item"><a href="#" class="nav-link px-2 text-body-secondary">About</a></li>
+      </ul>
+      <p class="text-center text-body-secondary">&copy; 2024 Company, Inc</p>
+    </footer>
+  </div>
+</body>
+</html>
