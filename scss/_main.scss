@@ -1,0 +1,16 @@
+// File: main.scss
+
+// Import biến
+@import 'variables';
+
+// Import quy tắc breakpoints và mixins
+@import 'breakpoints';
+
+// Các quy tắc CSS khác
+body {
+  font-size: $font-size-base;
+}
+
+.my-container {
+  color: $primary-color;
+}

@@ -1,0 +1,22 @@
+/* File: styles.css (được biên dịch từ SCSS) */
+
+body {
+    font-size: 16px; /* Từ biến $font-size-base */
+  }
+  
+  .my-container {
+    color: #007bff; /* Từ biến $primary-color */
+  }
+  
+  @media (min-width: 576px) {
+    .custom-class {
+      display: block;
+    }
+  }
+  
+  @media (min-width: 768px) {
+    .another-class {
+      background-color: #007bff; /* Từ biến $primary-color */
+    }
+  }
+  

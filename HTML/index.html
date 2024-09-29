@@ -7,7 +7,8 @@
     <!-- Bootstrap CSS -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet">
     <!-- Custom CSS -->
-    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="style1.css">
 </head>
 <body>
 
@@ -49,9 +50,31 @@
                     <div class="card-body">
                         <h5 class="card-title" id="vocabWord">Vocabulary Word</h5>
                         <p class="card-text" id="vocabDefinition">Front of the card</p>
+                        <tr>
+                            <th>Từ Tiếng Anh</th>
+                            <th>Định nghĩa Tiếng Anh</th>
+                            <th>Định nghĩa Tiếng Việt</th>
+                        </tr>
+                        <tbody id="vocabulary">
+                        </tbody>
                         <button id="flipBtn" class="btn btn-primary">Flip</button>
                     </div>
                 </div>
+                <div class="col-lg-6 mx-auto">
+                    <div class="card text-center">
+                        <div class="card-body">
+                            <h5 class="card-title" id="vocabWord">Vocabulary Word</h5>
+                            <p class="card-text" id="vocabDefinition">Back of the card</p>
+                            <tr>
+                                <th>Abundant</th>
+                                <th>Định nghĩa Tiếng Anh:  Existing in large quantities; plentiful.  </th>
+                                <th>Định nghĩa Tiếng Việt: Nhiều, phong phú, dư thừa. </th>
+                            </tr>
+                            <tbody id="vocabulary">
+                            </tbody>
+                            <button id="flipBtn" class="btn btn-primary">Flip</button>
+                        </div>
+                    </div>
             </div>
         </div>
 

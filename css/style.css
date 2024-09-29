@@ -43,6 +43,7 @@ body::before {
 }
 
 /* Flashcard Section */
+
 .card {
     background-color: #ffffff;
     border-radius: 8px;
@@ -63,6 +64,47 @@ body::before {
     margin-bottom: 15px;
 }
 
+.display-flex {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center; /* Sửa 'content-align' thành 'justify-content' */
+  }
+  
+  .card {
+    width: 300px;
+    height: 400px;
+    margin: 20px;
+    perspective: 1000px; /* Sửa 'View angle' thành 'perspective' */
+  }
+  
+  .card-inner {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    transition: transform 0.8s; /* Sửa 'transition: 0.8 sec change;' */
+    transform-style: preserve-3d; /* Sửa 'transform type' thành 'transform-style' */
+  }
+  
+  .card:hover .card-inner {
+    transform: rotateY(180deg); /* Sửa 'degrees' thành 'deg' */
+  }
+  
+  .card-front, .card-back {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    backface-visibility: hidden; /* Sửa 'ẩn' thành 'hidden' */
+  }
+  
+  .card-front {
+    background-color: #fff; /* Sửa 'background color' thành 'background-color' */
+  }
+  
+  .card-back {
+    background-color: #ccc; /* Sửa 'background color' thành 'background-color' */
+    transform: rotateY(180deg); /* Sửa 'degrees' thành 'deg' */
+  }
+  
 .card-text {
     font-size: 18px;
     color: #555555;
