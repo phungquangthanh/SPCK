@@ -1,22 +1,67 @@
 /* File: styles.css (được biên dịch từ SCSS) */
 
 body {
-    font-size: 16px; /* Từ biến $font-size-base */
+  font-size: 16px; /* Từ biến $font-size-base */
+}
+
+.my-container {
+  color: #007bff; /* Từ biến $primary-color */
+}
+
+/* Flashcard Section */
+
+.card {
+  background-color: #ffffff;
+  border-radius: 8px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+  padding: 30px;
+  margin: 20px 0;
+  text-align: center;
+  transition: transform 0.3s ease-in-out;
+  min-width: 600px;
+  min-height: 350px;
+}
+
+.card:hover {
+  transform: translateY(-5px);
+}
+
+.card-title {
+  font-size: 24px;
+  color: #333333;
+  margin-bottom: 15px;
+}
+
+.card-body {
+  height: max-content;
+  display: flex;
+  align-content: space-around;
+  flex-flow: row wrap;
+  justify-content: center;
+  gap: 15px;
+}
+
+.card-text {
+  font-size: 18px;
+  color: #555555;
+  margin-bottom: 20px;
+  width: 100%;
+}
+
+
+
+.hide {
+  display: none;
+}
+
+@media (min-width: 576px) {
+  .custom-class {
+    display: block;
   }
-  
-  .my-container {
-    color: #007bff; /* Từ biến $primary-color */
+}
+
+@media (min-width: 768px) {
+  .another-class {
+    background-color: #007bff; /* Từ biến $primary-color */
   }
-  
-  @media (min-width: 576px) {
-    .custom-class {
-      display: block;
-    }
-  }
-  
-  @media (min-width: 768px) {
-    .another-class {
-      background-color: #007bff; /* Từ biến $primary-color */
-    }
-  }
-  
+}
