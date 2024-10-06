@@ -1,11 +1,4 @@
-// Các từ vựng và định nghĩa
-const vocabWords = [
-    { word: "abundant", definition: "Existing in large quantities; plentiful." },
-    { word: "benevolent", definition: "Well meaning and kindly." },
-    { word: "candid", definition: "Truthful and straightforward." },
-    { word: "diligent", definition: "Showing care in one's work or duties." },
-    { word: "empathy", definition: "The ability to understand and share the feelings of another." }
-];
+
 
 let currentWordIndex = 0;
 let flipped = false;
